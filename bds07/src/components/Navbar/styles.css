@@ -22,3 +22,41 @@
 .main-menu a.active {
   font-weight: 700;
 }
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 40, 95, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e');
+}
+
+@media (min-width: 768px) {
+  .main-menu a.active {
+    margin-left: 150px;
+    margin-right: 10px;
+  }
+
+  .main-menu a {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-menu a.active {
+    margin-left: 250px;
+    margin-right: 10px;
+  }
+
+  .main-menu a {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-logo-text {
+    margin-left: 100px;
+  }
+
+  .main-menu a.active {
+    margin-left: 225px;
+    margin-right: 10px;
+  }
+
+}
