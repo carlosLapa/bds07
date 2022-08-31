@@ -60,3 +60,11 @@
   }
 
 }
+
+@media (min-width: 1400px) {
+  .main-menu a.active {
+    margin-left: 470px;
+    margin-right: 20px;
+  }
+
+}
