@@ -1,12 +1,16 @@
 import { ReactComponent as MainImage } from 'assets/images/car-header 1.svg';
 import ButtonIcon from 'components/ButtonIcon';
 import Navbar from 'components/Navbar';
+import CarCard from 'components/CarCard';
 import './styles.css';
+import Catalog from 'pages/Catalog';
+import SearchDiv from 'components/SearchDiv';
 
 const Home = () => {
   return (
     <>
       <Navbar />
+      {/* 
       <div className="home-container">
         <div className="home-card">
           <div className="home-content-container">
@@ -25,6 +29,9 @@ const Home = () => {
           <h1>Comece agora a navegar</h1>
         </div>
       </div>
+    */}
+      <SearchDiv />
+      <Catalog />
     </>
   );
 };

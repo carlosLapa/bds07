@@ -1,10 +1,9 @@
 import './styles.css';
 
 const ButtonIcon = () => {
-
   return (
     <button className="btn btn-icon">
-      <p>VER CATÁLOGO</p>
+      <p className="conteudo">VER CATÁLOGO</p>
     </button>
   );
 };

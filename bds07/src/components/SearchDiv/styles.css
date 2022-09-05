@@ -1,0 +1,99 @@
+.search-container {
+  margin: 20px 0px 20px 13px;
+  width: 92%;
+  height: 85px;
+  background: #ededed;
+  border-radius: 10px;
+  display: flex;
+}
+
+.search-container .btn-icon {
+  color: #fff;
+  width: 77px;
+  height: 40px;
+  background: #00285f;
+  border-radius: 0px 5px 5px 0px;
+  padding: 0px;
+}
+
+.search-container .btn-icon .conteudo {
+  visibility: hidden;
+}
+
+.search-container .btn-icon .conteudo::after {
+  visibility: visible;
+  content: 'BUSCAR';
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -40px;
+}
+
+.search-container .btn-icon:hover {
+  background: #00285f;
+  color: #fff;
+}
+
+.search-container .btn-icon:focus {
+  background: #00285f;
+  color: #fff;
+}
+
+.search-container-description {
+  width: 199px;
+  height: 40px;
+  position: relative;
+  left: 20px;
+  top: 21px;
+  background: #fff;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.search-container-description p {
+  color: #a7a7a7;
+  background: #fff;
+  padding: 11px 0px 7px 15px;
+  line-height: 16px;
+  font-size: 14px;
+}
+
+.search-btn-container {
+  padding: 21px 0px 10px 20px;
+  margin-right: 20px;
+}
+
+@media (min-width: 576px) {
+  .search-container {
+    margin: 20px 0px 20px 22px;
+    width: 530px;
+  }
+
+  .search-container p {
+    width: 320px;
+  }
+
+  .search-container .btn-icon {
+    width: 174px;
+    padding: 19px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-container-description {
+    width: 320px;
+  }
+
+  .search-container-description p {
+    width: 320px;
+  }
+
+  .search-container .btn-icon .conteudo::after {
+    top: -8px;
+  }
+}
+
+@media (min-width: 768px) {
+
+}
