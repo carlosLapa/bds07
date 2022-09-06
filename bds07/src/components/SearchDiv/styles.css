@@ -66,8 +66,9 @@
 
 @media (min-width: 576px) {
   .search-container {
-    margin: 20px 0px 20px 22px;
+    margin: 30px 0px 30px 22px;
     width: 530px;
+    height: 123px;
   }
 
   .search-container p {
@@ -76,12 +77,14 @@
 
   .search-container .btn-icon {
     width: 174px;
+    margin-top: 20px;
     padding: 19px 10px 10px 10px;
     display: flex;
     align-items: center;
   }
 
   .search-container-description {
+    margin-top: 20px;
     width: 320px;
   }
 
@@ -95,5 +98,69 @@
 }
 
 @media (min-width: 768px) {
+  .search-container {
+    margin: 20px 0px 20px 20px;
+    width: 720px;
+    height: 123px;
+  }
 
+  .search-container-description {
+    width: 516px;
+    margin-top: 20px;
+  }
+
+  .search-container p {
+    width: 516px;
+  }
+
+  .search-container .btn-icon {
+    margin-top: 20px;
+    width: 164px
+  }
+
+}
+
+@media (min-width: 992px) {
+  .search-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 96%;
+  }
+
+  .search-container-description {
+    width: 584px;
+    margin-left: 75px;
+  }
+
+  .search-container p {
+    width: 584px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .search-container {
+    width: 83%;
+    margin-left: 8.2%;
+  }
+
+  .search-container-description {
+    width: 60%;
+    margin-left: 10%;
+  }
+
+  .search-container p {
+    width: 584px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .search-container {
+    width: 72%;
+    margin-left: 230px;
+  }
+
+  .search-container-description {
+    width: 63%;
+    margin-left: 10%;
+  }
 }

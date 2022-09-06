@@ -56,15 +56,17 @@
 
   .main-menu a.active {
     margin-left: 225px;
-    margin-right: 10px;
+    margin-right: 50px;
   }
-
 }
 
 @media (min-width: 1400px) {
-  .main-menu a.active {
-    margin-left: 470px;
-    margin-right: 20px;
+  .nav-logo-text {
+    margin-left: 220px;
   }
 
+  .main-menu a.active {
+    margin-left: 240px;
+    margin-right: 50px;
+  }
 }

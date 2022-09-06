@@ -7,7 +7,7 @@
 }
 
 .car-image-container {
-  text-align: left;
+  text-align: center;
 }
 
 .car-brand-container h1 {
@@ -75,6 +75,7 @@
 
   .car-display-container {
     width: 258px;
+    height: 347px;
   }
 
   .car-brand-container h1 {
@@ -88,8 +89,84 @@
   .car-description-container p {
     font-size: 12px;
   }
+
+  .car-search-container {
+    margin-top: 30px;
+  }
 }
 
 @media (min-width: 768px) {
+  .main-div {
+    margin-left: -3%;
+  }
 
+  .car-display-container {
+    width: 349px;
+  }
+
+  .car-image-container {
+    text-align: center;
+  }
+
+  .car-brand-container h1 {
+    padding: 0px 15px 14px 95px;
+  }
+
+  .car-description-container p {
+    font-size: 14px;
+    color: #585858;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-div {
+    margin-left: 0;
+  }
+
+  .car-display-container {
+    width: 298px;
+    height: 347px;
+  }
+
+  .car-brand-container h1 {
+    padding: 0px 15px 14px 70px;
+  }
+
+  .car-search-container .btn-icon {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main-div {
+    margin-left: 22px;
+  }
+
+  .car-display-container {
+    width: 306px;
+  }
+
+  .car-search-container {
+    margin-top: 20px;
+  }
+  
+}
+
+@media (min-width: 1400px) {
+  .car-display-container {
+    width: 90%;
+  }
+
+  .car-description-container {
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .car-description-container p {
+    text-align: center;
+  }
+
+  .car-brand-container h1 {
+    margin-left: 30px;
+  }
 }
