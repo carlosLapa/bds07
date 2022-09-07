@@ -228,26 +228,23 @@
 @media (min-width: 1400px) {
   .home-card {
     margin-top: 20px;
-    margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 30px;
+    width: 75%;
+    margin-left: 200px;
   }
 
   .home-content-container h1 {
-    display: flex;
-    align-items: center;
-    width: 50%;
     top: 250px;
-    left: 200px;
+    left: 250px;
     font-size: 36px;
     line-height: 42px;
   }
 
   .home-content-container p {
-    width: 50%;
     top: 300px;
-    left: 200px;
-    text-align: left;
+    left: 250px;
+    width: 979px;
   }
 
   .home-image-container svg {
@@ -257,4 +254,18 @@
     top: 150px;
   }
 
+  .search-button-container {
+    width: 75%;
+    margin-left: 200px;
+  }
+
+  .search-button-container .btn-icon {
+    margin-top: 0;
+    margin-left: 45px;
+  }
+
+  .search-button-container h1 {
+    margin-top: 0;
+    margin-left: 15px;
+  }
 }

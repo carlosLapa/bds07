@@ -29,7 +29,7 @@
 
 @media (min-width: 768px) {
   .main-menu a.active {
-    margin-left: 150px;
+    margin-left: 100px;
     margin-right: 10px;
   }
 
@@ -40,7 +40,7 @@
 
 @media (min-width: 992px) {
   .main-menu a.active {
-    margin-left: 250px;
+    margin-left: 100px;
     margin-right: 10px;
   }
 
@@ -55,8 +55,8 @@
   }
 
   .main-menu a.active {
-    margin-left: 225px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 10px;
   }
 }
 
@@ -66,7 +66,7 @@
   }
 
   .main-menu a.active {
-    margin-left: 240px;
-    margin-right: 50px;
+    margin-left: 140px;
+    margin-right: 10px;
   }
 }
